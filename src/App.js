@@ -12,10 +12,6 @@ function App() {
         tg.ready();
     }, [])
 
-    const close = () => {
-        tg.close();
-    }
-
     return (
         <div className="App">
             <Header />
