@@ -95,9 +95,9 @@ const ProductList = () => {
 
   return (
     <div className={"product-list"}>
-      {products.map((product) => {
-        <ProductItem product={product} className="item" onAdd={onAdd} />;
-      })}
+      {products.map((product) => (
+        <ProductItem product={product} className="item" onAdd={onAdd} />
+      ))}
     </div>
   );
 };
