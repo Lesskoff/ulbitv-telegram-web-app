@@ -77,7 +77,7 @@ const ProductList = () => {
   const { tg, queryId } = useTelegram();
 
   const onSendData = useCallback(() => {
-    fetch("localhost:8000", {
+    fetch("localhost:8000/web-data", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
